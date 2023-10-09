@@ -78,10 +78,25 @@ body{
 }
 
 @media (max-width: 500px){
-    #modal p{
+    /*#modal p{
         max-width:20rem;
         margin-left: 19rem;
         margin-bottom: 8rem;
         font-size: large;
+    }*/
+    
+    #modal{
+        color: #fff;
+        background: transparent;
+        position: absolute;
+        max-width: 26rem;
+        padding-bottom: 10rem;
+        padding-left: 3rem;
+        display: flex;
+        font-size: large;
+        justify-content: space-between;
+        align-items: center;
+        animation-name: animatemodal;
+        animation-duration: .4s;
     }
     }
