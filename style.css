@@ -76,3 +76,12 @@ body{
         opacity: 1;
     }
 }
+
+@media (max-width: 500px){
+    #modal p{
+        max-width:20rem;
+        margin-left: 19rem;
+        margin-bottom: 8rem;
+        font-size: large;
+    }
+    }
